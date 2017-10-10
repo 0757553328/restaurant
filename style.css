@@ -1,18 +1,95 @@
 body {
 	font-family: 'Lora', serif;
 	background-color: #F4FBF5;
-	max-width: 480px;
+	min-width: 480px;
 }
-
+header {
+	background-color: blue;
+}
 footer {
-	max-width: 480px;
+	min-width: 480px;
 	text-align: left;
 	background-color: #24252C;
 	color: white;
 	font-size: 13px;
 }
-div{
-	padding-left: 10px;
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    float: right;
+}
+li>a {
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+    padding: 16px;
+    display: block;
+}
+li a:hover {
+    background-color: #F2F2F2;
+}
+a{
+	color: #000000;
+}
+table{
+	background-color: #F4FBF5;
+	width: 100%;
+	font-size: 40px;
+	color: #717171;
+	font-family: lato;
+	padding-bottom: 50px;
+}
+th {
+	padding: 70px 0px 50px;
+	text-align: left;
+	color: #000000;
+}
+td {
+	padding: 7px;
+}
+.grey_bg {
+	background-color: #F4FBF5;
+}
+.icon_menu {
+	width: 60px;
+	text-align: right;
+}
+.logo_header {
+	padding: 0px;
+	width: 50px;
+	z-index: 1;
+}
+.img_main{
+	width: 100%;
+}
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.title_main_description {
+	color: #000000;
+}
+.main_description {
+	text-align: center;
+	font-family: 'Manuale', serif;
+	padding: 50px 25px;
+	line-height: 1.8;
+	background-color: #FFFFFF;
+	color: #717171;
+	font-size: 1.79em;
+}
+.logo_body_menu {
+	position: static;
+    width: 100px;
+    top: -100px;
+    left: 700px;
+    padding-bottom: 0px;
 }
 .news {
 	background-color: #FFFFFF;
@@ -23,7 +100,7 @@ div{
 .news_title{
 	color: #000000;
 }
-.logo {
+.logo_footer {
 	width: 100px;
 	padding: 50px 0px;
 }
@@ -52,3 +129,33 @@ div{
     position: absolute;
     top: 8px;
     left: 16px;
+ }
+ .simple_img {
+ 	background-color: #F4FBF5;
+ 	width: 100%;
+ 	padding-top: 60px;
+ }
+.text_about>.about_pr {
+ 	color: color: #717171;
+ 	font-family: roboto;
+ 	padding-top: 30px;
+ }
+.text_about {
+	padding: 30px 20px;
+ }
+ #bottom_links {
+ 	padding: 60px;
+ 	margin: 20px;
+ 	margin-bottom: 60px;
+ }
+.about_links {
+ 	font-size: 12px;
+ 	color: #717171;
+ 	font-family: roboto;
+ }
+ .contact_form {
+ 	font-size: 40px;
+ }
+ footer>div {
+ 	padding-left: 10px;
+ }

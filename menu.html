@@ -3,153 +3,175 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-	<title>Restaurant</title>
+	<title>Menu</title>
 </head>
 <body>
 	<header>
-		<div class="header">
-			<div class="first_in_header">
-				<a href="#" class="logo_header">
-					<img  src="img/sigla_usv.png" />
-				</a>
+		<div class="c-header">
+			<div>
+				<img class="c-header__logo u-biglogo" src="img/sigla_usv.png">
 			</div>
-			<div> 
-				<img class="second_in_header" src="img/menu.png" />
-			</div>
+			<button class="c-header__btn ">menu
+			</button>
 		</div>
 	</header>
-	<div class="top_content">
-		<img class="img_main" src="img/food3.jpg">
+	<div class="c-topcontainer">
+			<img class="c-topcontainer__img" src="img/story2.png">
 	</div>
-	<div class="main_description"> 
-		<span class="title_main_description">MADE FROM SCRATCH</span>
-		<p >The Miller manu is a celebration of the historic Mornington coastal region and its adundance of vibrant local producers.</p>
+	<div class="c-pgdescription">
+		<div>
+			<h1 class="c-pgdescription__title u-uppercase u-center">made from scratch<br>___</h1>
+			<p class="c-pgdescription__article u-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quidem. Quaerat provident ea, officiis totam molestias quas minus rerum nemo voluptas.</p>
+		</div>
+		<div class="c-pgdescription__logo .u-middlelogo">
+			<img src="img/sigla_usv.png">
+		</div>
 	</div>
-	<div class="logo_body_menu" id="logo_menu">
-		<img  src="img/sigla_usv.png">
-	</div>
-	<div>
-		<table>
+	<div class="c-table">
+		<table class="u-middlefont">
 			<tr>
-    			<th colspan="3">FIRST <span style="font-style: italic; font-size: 30px; color: #717171;">SMALL PIECES, IDEAL FOR SHARING </span></th>
-  			</tr>
- 			 <tr>
-    			<td colspan="2">Oyster - shaved scallop, sea herbs, lemon (GF)</td>
-    			<td>4.5</td>
-  			</tr>
-  			<tr>
-				<td colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
-				<td>5</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Mill house bread - smoked cultured butter (V)</td>
-				<td>5</td>
+				<th class="c-table__title u-uppercase " colspan="2">first</th>
+				<th class="c-table__subtitle u-italic u-uppercase">small pieces, ideal for sharing</th>
+			</tr>
+			<tr>
+				<td class="c-table__menu" colspan="2">Oyster - shaved scallop, sea herbs, lemon (GF)</td>
+				<td class="c-table__price">4.5</td>
+			</tr>
+			<tr>
+				<td class="c-table__menu" colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
+				<td class="c-table__price">5</td>
   			</tr>
     		<tr>
-				<td colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
-				<td>5</td>
+				<td class="c-table__menu" colspan="2">Mill house bread - smoked cultured butter (V)</td>
+				<td class="c-table__price">5</td>
   			</tr>
     		<tr>
-				<td colspan="2">Tasmanian salmon - ginger, kaffir, finger lime, grape (GF)</td>
-				<td>8</td>
+				<td class="c-table__menu" colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
+				<td class="c-table__price">5</td>
   			</tr>
     		<tr>
-				<td colspan="2">Chicken liver pate - spiced bread, crackling</td>
-				<td>9</td>
+				<td class="c-table__menu" colspan="2">Tasmanian salmon - ginger, kaffir, finger lime, grape (GF)</td>
+				<td class="c-table__price">8</td>
   			</tr>
     		<tr>
-				<td colspan="2">Scallop cannelloni - nettle, bower spianch, katsuobushi</td>
-				<td>12</td>
+				<td class="c-table__menu" colspan="2">Chicken liver pate - spiced bread, crackling</td>
+				<td class="c-table__price">9</td>
   			</tr>
     		<tr>
-				<td colspan="2">Kangaroo tartare - green olive, miso, flax cracker (GF)</td>
-				<td>12.5</td>
-  			</tr>
-
-  			<tr>
-    			<th colspan="3">MAIN <span style="font-style: italic; font-size: 30px; color: #717171;">LARGER SINGLE-SERVE DISHES</span></th>
-  			</tr>
- 			 <tr>
-    			<td colspan="2">Arcadia Lamb - cucumber, lemon, honey, sake (GF)</td>
-    			<td>29</td>
-  			</tr>
-  			<tr>
-				<td colspan="2">Roasted duck - pickled turnip, black garlic, slow-cooked grains</td>
-				<td>29</td>
+				<td class="c-table__menu" colspan="2">Scallop cannelloni - nettle, bower spianch, katsuobushi</td>
+				<td class="c-table__price">12</td>
   			</tr>
     		<tr>
-				<td colspan="2">Smiked Abalone - pearl oyster, heart of palm, black vinegar (GF)</td>
-				<td>32.5</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Pickled Quail - walnut crackling, cured seaweed, star anise</td>
-				<td>35</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Confit Salmon - shiitake, grains, horseradish emulsion</td>
-				<td>35</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Slow Cooked Cod - eggplant, hazelnut, juniper berry (GF)</td>
-				<td>37</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Pickled Mussels - nettle, bower spinach, katasuobushi</td>
-				<td>12</td>
-  			</tr>
-
-  			<tr>
-    			<th colspan="3">DESSERT <span style="font-style: italic; font-size: 30px; color: #717171;">SMALL SERVINGS, IDEAL FOR</span></th>
-  			</tr>
- 			 <tr>
-    			<td colspan="2">Lychee tart - filtered crem&#233; frai&#224;iche, blueberries (V)</td>
-    			<td>12</td>
-  			</tr>
-  			<tr>
-				<td colspan="2">Caramel cheesecake - apple leaves, ginger</td>
-				<td>12.5</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Sweet potato ice cream - shaved pear, cacao (GF)</td>
-				<td>14</td>
-  			</tr>
-    		<tr>
-				<td colspan="2">Chocolate friand - quince pasta, ginger root (V)</td>
-				<td>16</td>
+				<td class="c-table__menu" colspan="2">Kangaroo tartare - green olive, miso, flax cracker (GF)</td>
+				<td class="c-table__price">12.5</td>
   			</tr>
 		</table>
 	</div>
-	<div class="simple_img_div">
-		<img class="simple_img" src="img/food5.jpg">
+		<div class="c-table">
+		<table class="u-middlefont">
+			<tr>
+				<th class="c-table__title u-uppercase " colspan="2">main</th>
+				<th class="c-table__subtitle u-italic u-uppercase">small pieces, ideal for sharing</th>
+			</tr>
+			<tr>
+				<td class="c-table__menu" colspan="2">Oyster - shaved scallop, sea herbs, lemon (GF)</td>
+				<td class="c-table__price">4.5</td>
+			</tr>
+			<tr>
+				<td class="c-table__menu" colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
+				<td class="c-table__price">5</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Mill house bread - smoked cultured butter (V)</td>
+				<td class="c-table__price">5</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
+				<td class="c-table__price">5</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Tasmanian salmon - ginger, kaffir, finger lime, grape (GF)</td>
+				<td class="c-table__price">8</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Chicken liver pate - spiced bread, crackling</td>
+				<td class="c-table__price">9</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Scallop cannelloni - nettle, bower spianch, katsuobushi</td>
+				<td class="c-table__price">12</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Kangaroo tartare - green olive, miso, flax cracker (GF)</td>
+				<td class="c-table__price">12.5</td>
+  			</tr>
+		</table>
+	</div>
+		<div class="c-table">
+		<table class="u-middlefont">
+			<tr>
+				<th class="c-table__title u-uppercase " colspan="2">dessert</th>
+				<th class="c-table__subtitle u-italic u-uppercase">small pieces, ideal for sharing</th>
+			</tr>
+			<tr>
+				<td class="c-table__menu" colspan="2">Oyster - shaved scallop, sea herbs, lemon (GF)</td>
+				<td class="c-table__price">4.5</td>
+			</tr>
+			<tr>
+				<td class="c-table__menu" colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
+				<td class="c-table__price">5</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Mill house bread - smoked cultured butter (V)</td>
+				<td class="c-table__price">5</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">7 spiced pepita seeds - orange, garlic, capsicum, pork (GF)</td>
+				<td class="c-table__price">5</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Tasmanian salmon - ginger, kaffir, finger lime, grape (GF)</td>
+				<td class="c-table__price">8</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Chicken liver pate - spiced bread, crackling</td>
+				<td class="c-table__price">9</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Scallop cannelloni - nettle, bower spianch, katsuobushi</td>
+				<td class="c-table__price">12</td>
+  			</tr>
+    		<tr>
+				<td class="c-table__menu" colspan="2">Kangaroo tartare - green olive, miso, flax cracker (GF)</td>
+				<td class="c-table__price">12.5</td>
+  			</tr>
+		</table>
+	</div>
+	<div class="c-container">
+		<img class="c-container__simpleimg" src="img/food8.jpg">
 	</div>
 </body>
-<footer footer_content>
-	<img class="logo_footer" src="img/sigla_usv.png">
-
-	<div class="footer_title">LOCATION
-		<p>14 Paramore Street<br>Mornington Peninsula<br>Victoria 3552</p>
-	</div>
-
-	<div class="footer_title">CONTACT
-		<p>P: (03)9283 4726<br>E: <span style="text-decoration: underline;">enquiries@mill.co</span></p>
-	</div>
-
-	<div class="footer_title">OPENING HOURS
-		<p>Wen - Sat, 12-3pm | 6pm-late<br>Sun, 12 noon til 3pm<br>Mon - Tues, closed</p>
-	</div>
-
-	<div class="footer_title">SOCIAL<br>
-		<img class="social_logo" src="img/sigla_usv.png">
-		<img class="social_logo" src="img/sigla_usv.png">
-		<img class="social_logo" src="img/sigla_usv.png">
-		<img class="social_logo" src="img/sigla_usv.png">
-	</div>
-
-	<div class="copyright">
-		&#169;Copyright 2017 Miller Restaurant, All Right Reserved<br><br><br>
-		Image License
-	</div>
-
-</footer>
+<footer>
+		<div class="c-footer">
+			<div>
+				<img class="c-footer__logo u-middlelogo" src="img/sigla_usv.png">
+			</div>
+			<span class="c-footer__title u-uppercase u-white">location</span>
+			<p class="c-footer__details u-capitalize u-white">14 paramore street<br>mornington peninsula<br>victoria 3552</p>
+			<span class="c-footer__title u-uppercase u-white">location</span>
+			<p class="c-footer__details u-capitalize u-white">14 paramore street<br>mornington peninsula<br>victoria 3552</p>
+			<span class="c-footer__title u-uppercase u-white">location</span>
+			<p class="c-footer__details u-capitalize u-white">14 paramore street<br>mornington peninsula<br>victoria 3552</p>
+			<div class="c-footer__title u-uppercase u-white">SOCIAL<br>
+				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
+				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
+				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
+				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
+			</div>
+			<div class="c-footer__copyright">
+				<span>&#169;Copyright 2017 Miller Restaurant, All Right Reserved<br><br><br>
+		Image License</span>
+			</div>
+		</div>
+	</footer>
 </html>

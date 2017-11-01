@@ -3,63 +3,197 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="normalize.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="style-example.css">
 	<title>Restaurant</title>
 </head>
 
 <body>
-	<header>
-		<div class="c-header">
-			<div>
-				<img class="c-header__logo u-biglogo" src="img/sigla_usv.png">
-			</div>
-			<button class="c-header__btn ">menu
-			</button>
-		</div>
+
+
+
+	<header class="c-page-header">
+
+		<img
+			src="http://uploads.webflow.com/596da34de38af95a0f339db4/596ed0f18a8e2b47577f9bb9_Logo.png"
+			alt="Logo"
+			class="c-page-header__logo">
+
+		<button class="c-page-header__menu-toggler [ js-menu-toggler ]">menu</button>
+
+		<nav class="c-page-navigaiton [ js-page-navigation ]">
+			<ul class="c-list c-page-menu">
+
+				<li class="c-page-menu__item">
+					<a href="#" class="c-page-menu__link">Link 1</a>
+				</li>
+
+				<li class="c-page-menu__item">
+					<a href="#" class="c-page-menu__link">Link 2</a>
+				</li>
+
+				<li class="c-page-menu__item">
+					<a href="#" class="c-page-menu__link">Link 3</a>
+				</li>
+
+				<li class="c-page-menu__item">
+					<a href="#" class="c-page-menu__link">Link 4</a>
+				</li>
+
+				<li class="c-page-menu__item">
+					<a href="#" class="c-page-menu__link">Link 5</a>
+				</li>
+
+				<li class="c-page-menu__item">
+					<a href="#" class="c-page-menu__link">Link 5</a>
+				</li>
+
+			</ul>
+		</nav>
+
+		<section class="c-page-hero">
+			<h1 class="c-page-header__title">
+				Celebrating the bounty of the sea
+			</h1>
+			<h3 class="c-page-header__subtitle">
+				14 PARAMORE STREET, MORNINGTON
+			</h3>
+		</section>
+
+		<button class="c-go-down [ js-go-down ]">Down</button>
+
 	</header>
 
-	<div class="c-topcontainer">
-			<img class="c-topcontainer__img u-fullscreen" src="img/story2.png">
-			<h1 class="c-topcontainer__title u-white">Celebrating the bounty of the sea<br>___</h1>
-			<h3 class="c-topcontainer__subtitle u-white u-uppercase">14 paramore street, mornington</h3>
-	</div>
-	<div class="c-news">
-		<h2 class="c-news__title u-uppercase">award winning kitchen</h2>
-		<p class="c-news__news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eos dolor illo repellat facere, ducimus beatae.</p>
-		<a class="c-news__link u-underline u-uppercase" href="#"> learn more</a>
-	</div>
-	<div class="c-news">
-		<h2 class="c-news__title u-uppercase">award winning kitchen</h2>
-		<p class="c-news__news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eos dolor illo repellat facere, ducimus beatae.</p>
-		<a class="c-news__link u-underline u-uppercase" href="#"> learn more</a>
-	</div>
-	<div class="c-news">
-		<h2 class="c-news__title u-uppercase">award winning kitchen</h2>
-		<p class="c-news__news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eos dolor illo repellat facere, ducimus beatae.</p>
-		<a class="c-news__link u-underline u-uppercase" href="#"> learn more</a>
-	</div>
-</body>
-<footer>
-		<div class="c-footer">
-			<div>
-				<img class="c-footer__logo u-middlelogo" src="img/sigla_usv.png">
-			</div>
-			<span class="c-footer__title u-uppercase u-white">location</span>
-			<p class="c-footer__details u-capitalize u-white">14 paramore street<br>mornington peninsula<br>victoria 3552</p>
-			<span class="c-footer__title u-uppercase u-white">location</span>
-			<p class="c-footer__details u-capitalize u-white">14 paramore street<br>mornington peninsula<br>victoria 3552</p>
-			<span class="c-footer__title u-uppercase u-white">location</span>
-			<p class="c-footer__details u-capitalize u-white">14 paramore street<br>mornington peninsula<br>victoria 3552</p>
-			<div class="c-footer__title u-uppercase u-white">SOCIAL<br>
-				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
-				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
-				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
-				<img class="c-footer__sociallogo u-smalllogo" src="img/sigla_usv.png">
-			</div>
-			<div class="c-footer__copyright">
-				<span>&#169;Copyright 2017 Miller Restaurant, All Right Reserved<br><br><br>
-		Image License</span>
-			</div>
-		</div>
+
+
+	<main class="c-page">
+
+		<section class="c-landing-news">
+
+			<article class="c-news">
+				<h2 class="c-news__title">INSPIRED BY THE REGION</h2>
+				<p class="c-news__description">
+					Rich in heritage and abundant in local produce, Miller is a gathering place celebrating Mornington’s finest.
+				</p>
+				<a href="#" class="c-news__link">
+					Learn More
+				</a>
+			</article>
+
+			<article class="c-news">
+				<h2 class="c-news__title">INSPIRED BY THE REGION</h2>
+				<p class="c-news__description">
+					Rich in heritage and abundant in local produce, Miller is a gathering place celebrating Mornington’s finest.
+				</p>
+				<a href="#" class="c-news__link">
+					Learn More
+				</a>
+			</article>
+
+			<article class="c-news">
+				<h2 class="c-news__title">INSPIRED BY THE REGION</h2>
+				<p class="c-news__description">
+					Rich in heritage and abundant in local produce, Miller is a gathering place celebrating Mornington’s finest.
+				</p>
+				<a href="#" class="c-news__link">
+					Learn More
+				</a>
+			</article>
+
+		</section>
+
+	</main>
+
+
+
+	<footer class="c-page-footer">
+
+		<img src="http://uploads.webflow.com/596da34de38af95a0f339db4/596ed0f18a8e2b47577f9bb9_Logo.png" alt="Logo" class="c-page-footer__logo">
+
+
+		<h3 class="c-page-footer__title">
+			Locations
+		</h3>
+
+		<ul class="c-page-footer__list">
+
+			<li class="c-page-footer__list-item">
+				14 Paramore Street
+			</li>
+
+			<li class="c-page-footer__list-item">
+				Mornington Peninsula
+			</li>
+
+			<li class="c-page-footer__list-item">
+				Victoria 3552
+			</li>
+
+		</ul>
+
+
+
+		<h3 class="c-page-footer__title">
+			Contact
+		</h3>
+
+		<ul class="c-page-footer__list">
+
+			<li class="c-page-footer__list-item">
+				P:(03) 9283 4726
+			</li>
+
+			<li class="c-page-footer__list-item">
+				E:enquiries@mill.co
+			</li>
+
+		</ul>
+
+
+
+		<h3 class="c-page-footer__title">
+			Contact
+		</h3>
+
+		<ul class="c-page-footer__socials">
+
+			<li class="c-page-footer__socials-item">
+				<a href="" class="c-page-footer__socials-link">
+					<img src="http://uploads.webflow.com/596da34de38af95a0f339db4/5971757cd461ca016a924969_Social-Instagram.png" alt="">
+				</a>
+			</li>
+
+			<li class="c-page-footer__socials-item">
+				<a href="" class="c-page-footer__socials-link">
+					<img src="http://uploads.webflow.com/596da34de38af95a0f339db4/5971757cd461ca016a924969_Social-Instagram.png" alt="">
+				</a>
+			</li>
+
+			<li class="c-page-footer__socials-item">
+				<a href="" class="c-page-footer__socials-link">
+					<img src="http://uploads.webflow.com/596da34de38af95a0f339db4/5971757cd461ca016a924969_Social-Instagram.png" alt="">
+				</a>
+			</li>
+
+			<li class="c-page-footer__socials-item">
+				<a href="" class="c-page-footer__socials-link">
+					<img src="http://uploads.webflow.com/596da34de38af95a0f339db4/5971757cd461ca016a924969_Social-Instagram.png" alt="">
+				</a>
+			</li>
+
+		</ul>
+
+		<p classs="c-page__all-rights">© Copyright 2017 Miller Restaurant, All Rights Reserved</p>
+
 	</footer>
+
+	<button class="c-go-top [ js-go-top ]"></button>
+
+
+
+<script src="./vendor/jquery-3.2.1.min.js"></script>
+<script src="./main.js"></script>
+</body>
+
 </html>

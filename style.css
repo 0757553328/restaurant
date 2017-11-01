@@ -3,7 +3,7 @@
 	background-color: #F4FBF5;
 }*/
 .c-header {
-	position: relative;	
+	position: relative;
 	min-width: 480px;
 }
 .c-header__logo {
@@ -87,7 +87,7 @@
 	padding-right: 30px;
 	padding-bottom: 100px;
 	background-color: lightgrey;
-	overflow-x: auto; 
+	overflow-x: auto;
 }
 .c-table__title {
 	vertical-align: bottom;
@@ -189,9 +189,9 @@
 }
 .u-small {
 	font-size: 1.5em;
-	} 
+	}
 .u-italic {
-	font-style: italic; 
+	font-style: italic;
 }
 .u-middlefont {
 	font-size: 2.0em;
